@@ -1,0 +1,4 @@
+# Ignorar a pasta node_modules
+node_modules/
+#ignorar o arqivo package-lock.json
+package-lock.json

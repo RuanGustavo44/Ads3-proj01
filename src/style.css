@@ -1,0 +1,69 @@
+/* Estilização geral */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff; /* Azul claro */
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container principal */
+.container {
+    background-color: #ffffff; /* Fundo branco */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px 30px;
+    text-align: center;
+    width: 90%;
+    max-width: 400px;
+}
+
+/* Título */
+.container h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #4a90e2; /* Azul suave */
+}
+
+/* Parágrafo */
+.container p {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+/* Input */
+.container input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Botão */
+.container button {
+    background-color: #4a90e2;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.container button:hover {
+    background-color: #357ab8; /* Azul mais escuro */
+}
+
+/* Resultado */
+.container #resultado {
+    font-size: 18px;
+    margin-top: 15px;
+    color: #333;
+}

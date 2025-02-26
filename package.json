@@ -1,0 +1,14 @@
+{
+  "name": "proj1",
+  "version": "1.0.0",
+  "description": "Meu primeiro projeto em javascript",
+  "main": "index.html",
+  "scripts": {
+    "start": "live-server --host=0.0.0.0 --port=8"
+  },
+  "author": "Ruan Gustavo Leite",
+  "license": "MIT",
+  "dependencies": {
+    "live-server": "^1.2.2"
+  }
+}
